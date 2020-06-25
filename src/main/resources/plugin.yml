@@ -1,0 +1,7 @@
+name: CrunchyChatAddon
+version: ${project.version}
+main: dev.demeng.cca.CrunchyChatAddon
+api-version: 1.13
+authors: [Demeng]
+description: Pings and tags chat addon.
+website: demeng.dev

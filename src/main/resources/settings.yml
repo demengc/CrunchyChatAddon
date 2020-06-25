@@ -1,0 +1,24 @@
+mentions:
+  enabled: true
+  highlight-color: "&a&l"
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  sound: "BLOCK_NOTE_BLOCK_PLING"
+
+hashtags:
+  enabled: true
+  highlight-color: "&b&l"
+
+  trending:
+    # The message displayed when using /trending.
+    # Use %first%, %second%, %third%, %fourth%, or %fifth% for the top 5 tags.
+    message:
+      - "&6&lTRENDING TOPICS ON THE SERVER"
+      - "&c#1: &f%first%"
+      - "&e#2: &f%second%"
+      - "&a#3: &f%third%"
+      - "&3#4: &f%fourth%"
+      - "&5#5: &f%fifth%"
+    # The format used for the %first%, %second%, %third%, etc. placeholders in the message.
+    # Use %hashtag% for the tag name.
+    # Use %count% for the number of times the tag was used.
+    hashtag-format: "&f%hashtag% &7(%count% messages)"
